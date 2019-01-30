@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome to #{title}
+    form(method='POST' action='/api/v1/users')
+        div.form-group
+            label(for='name') Name:
+            input#name.form-control(type='text', placeholder='Name...' name='name')
+        div.form-group
+            label(for='email') Email:
+            input#email.form-control(type='email', placeholder='name@email.com' name='email')
+        div.form-group
+            label(for='password') Password:
+            input#password.form-control(type='password' name='password')
+        button.btn.btn-primary(type='submit') Sign up
