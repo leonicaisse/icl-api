@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9722686e-27b6-4a32-b6ce-8207ec73188c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/routes/xml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml/054830-00.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml/054830-01.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/054830-01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/054830-01.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +16,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-295">
+            <state relative-caret-position="759">
               <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/xml.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xml/054830-01.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1311">
+              <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+              <folding>
+                <element signature="n#Item#0;n#Composants#0;n#Commande#0;n#Infos_Commande_MasterPrint#0;n#!!top" />
+                <element signature="n#Item#1;n#Composants#0;n#Commande#0;n#Infos_Commande_MasterPrint#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,6 +99,8 @@
         <option value="$PROJECT_DIR$/views/xml.pug" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/xml.js" />
+        <option value="$PROJECT_DIR$/xml/054830-00.xml" />
+        <option value="$PROJECT_DIR$/xml/054830-01.xml" />
       </list>
     </option>
   </component>
@@ -168,15 +187,17 @@
       <workItem from="1548775830940" duration="7062000" />
       <workItem from="1549057814499" duration="230000" />
       <workItem from="1549267915862" duration="5080000" />
-      <workItem from="1549354217033" duration="552000" />
+      <workItem from="1549354217033" duration="1850000" />
+      <workItem from="1549377038375" duration="686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16948000" />
+    <option name="totallyTimeSpent" value="18932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -225,25 +246,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/054830-01.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/xml.pug" />
-    <entry file="file://$PROJECT_DIR$/routes/xml.js">
+    <entry file="file://$PROJECT_DIR$/xml/054830-00.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="308">
+          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295">
+        <state relative-caret-position="759">
           <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/xml.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -265,6 +286,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="23" column="90" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/054830-01.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+          <folding>
+            <element signature="n#Item#0;n#Composants#0;n#Commande#0;n#Infos_Commande_MasterPrint#0;n#!!top" />
+            <element signature="n#Item#1;n#Composants#0;n#Commande#0;n#Infos_Commande_MasterPrint#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

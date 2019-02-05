@@ -96,6 +96,28 @@
                 <Process>Offset</Process>
                 <Impression>Quadri</Impression>
             </Item>
+            <Item Composant="Composant_002">
+                <Type>Composant 3</Type>
+                <Pagination>32</Pagination>
+                <FormatFini>
+                    <Largeur>21.00</Largeur>
+                    <Hauteur>29.70</Hauteur>
+                </FormatFini>
+                <FormatOuvert>
+                    <Largeur>42.00</Largeur>
+                    <Hauteur>29.70</Hauteur>
+                </FormatOuvert>
+                <Machine>CD5L</Machine>
+                <Bascule>Non</Bascule>
+                <Papier>
+                    <Nom>Couché brillant</Nom>
+                    <Largeur>92.00</Largeur>
+                    <Hauteur>65.00</Hauteur>
+                    <Grammage>135</Grammage>
+                </Papier>
+                <Process>Offset</Process>
+                <Impression>Quadri</Impression>
+            </Item>
         </Composants>
         <Arriveedocs>26/07/2016</Arriveedocs>
         <DépartBAT>26/07/2016</DépartBAT>
