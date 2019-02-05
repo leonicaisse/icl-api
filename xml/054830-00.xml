@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Infos_Commande_MasterPrint>
+    <Commande ID="1609.0409" name="XML #1">
+        <Codeclient>HACHETTE</Codeclient>
+        <Devis>054830-00</Devis>
+        <Dossier>N°dossier</Dossier>
+        <Codeproduit>Brochure</Codeproduit>
+        <Fabricant>
+            <Code>CO</Code>
+            <Nom>Charles</Nom>
+            <Prenom>Olivier</Prenom>
+            <Telephone>0102030405</Telephone>
+            <Email>co@truc.com</Email>
+        </Fabricant>
+        <Commercial>
+            <Code>JL</Code>
+            <Nom>Joujou</Nom>
+            <Prenom>Lapin</Prenom>
+            <Telephone>0102030405</Telephone>
+            <Email>joujou@lapin.com</Email>
+        </Commercial>
+        <Contact>
+            <Nom>Denard</Nom>
+            <Prenom>Bob</Prenom>
+            <Telephone>99999999</Telephone>
+            <Email>bob@denard.com</Email>
+        </Contact>
+        <Quantité>10000</Quantité>
+        <Reference>Livre</Reference>
+        <Datedelivraison>28/07/2016</Datedelivraison>
+        <Designation>
+            <Ligne>Couverture 4 pages</Ligne>
+            <Ligne>Format fini : 21.00x29.70cm</Ligne>
+            <Ligne>Format ouvert : 42.00x29.70cm</Ligne>
+            <Ligne>Papier : *CoucheBrillant/MagnoGloss250g/m²</Ligne>
+            <Ligne>Impression : Quadrirecto/verso</Ligne>
+            <Ligne>Eléments fournis : fichiersnumériques</Ligne>
+            <Ligne>Epreuve Epson : 1 au format 29.70x42.00</Ligne>
+            <Ligne>Pelliculage MATR°</Ligne>
+            <Ligne>Intérieur 40 pages</Ligne>
+            <Ligne>Papier : Couche Brillant/MagnoGloss115g/m²</Ligne>
+            <Ligne>Impression : Quadrirecto/verso</Ligne>
+            <Ligne>Eléments fournis : fichiers numériques</Ligne>
+            <Ligne>Façonnage : 2pointsmétal</Ligne>
+            <Ligne>Poids théorique d'un exemplaire : 174.64Gr</Ligne>
+            <Ligne>Mise sous film ajustée</Ligne>
+            <Ligne>Mise en carton adaptée</Ligne>
+            <Ligne>Surpalette protégée</Ligne>
+            <Ligne>Marchandise àdisposition dans nos locaux</Ligne>
+        </Designation>
+        <Observations>
+            <Ligne>Macculage sur la précédente commande</Ligne>
+        </Observations>
+        <Composants>
+            <Item Composant="Composant_001">
+                <Type>Couveture</Type>
+                <Pagination>4</Pagination>
+                <FormatFini>
+                    <Largeur>21.00</Largeur>
+                    <Hauteur>29.70</Hauteur>
+                </FormatFini>
+                <FormatOuvert>
+                    <Largeur>42.00</Largeur>
+                    <Hauteur>29.70</Hauteur>
+                </FormatOuvert>
+                <Machine>CD5L</Machine>
+                <Bascule>In8</Bascule>
+                <Papier>
+                    <Nom>Couché brillant</Nom>
+                    <Largeur>92.00</Largeur>
+                    <Hauteur>65.00</Hauteur>
+                    <Grammage>250</Grammage>
+                </Papier>
+                <Process>Offset</Process>
+                <Impression>Quadri+1</Impression>
+            </Item>
+            <Item Composant="Composant_002">
+                <Type>Interieur</Type>
+                <Pagination>32</Pagination>
+                <FormatFini>
+                    <Largeur>21.00</Largeur>
+                    <Hauteur>29.70</Hauteur>
+                </FormatFini>
+                <FormatOuvert>
+                    <Largeur>42.00</Largeur>
+                    <Hauteur>29.70</Hauteur>
+                </FormatOuvert>
+                <Machine>CD5L</Machine>
+                <Bascule>Non</Bascule>
+                <Papier>
+                    <Nom>Couché brillant</Nom>
+                    <Largeur>92.00</Largeur>
+                    <Hauteur>65.00</Hauteur>
+                    <Grammage>135</Grammage>
+                </Papier>
+                <Process>Offset</Process>
+                <Impression>Quadri</Impression>
+            </Item>
+        </Composants>
+        <Arriveedocs>26/07/2016</Arriveedocs>
+        <DépartBAT>26/07/2016</DépartBAT>
+        <RetourBAT>26/07/2016</RetourBAT>
+    </Commande>
+</Infos_Commande_MasterPrint>
