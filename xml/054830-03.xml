@@ -2,7 +2,7 @@
 <Infos_Commande_MasterPrint>
     <Commande ID="1609.0409" name="XML #1">
         <Codeclient>HACHETTE</Codeclient>
-        <Devis>054830-01</Devis>
+        <Devis>054830-03</Devis>
         <Dossier>N°dossier</Dossier>
         <Codeproduit>Brochure</Codeproduit>
         <Fabricant>
@@ -50,7 +50,6 @@
         </Designation>
         <Observations>
             <Ligne>Macculage sur la précédente commande</Ligne>
-            <Ligne>Une autre observation</Ligne>
         </Observations>
         <Composants>
             <Item Composant="Composant_001">
@@ -77,28 +76,6 @@
             </Item>
             <Item Composant="Composant_002">
                 <Type>Interieur</Type>
-                <Pagination>32</Pagination>
-                <FormatFini>
-                    <Largeur>21.00</Largeur>
-                    <Hauteur>29.70</Hauteur>
-                </FormatFini>
-                <FormatOuvert>
-                    <Largeur>42.00</Largeur>
-                    <Hauteur>29.70</Hauteur>
-                </FormatOuvert>
-                <Machine>CD5L</Machine>
-                <Bascule>Non</Bascule>
-                <Papier>
-                    <Nom>Couché brillant</Nom>
-                    <Largeur>92.00</Largeur>
-                    <Hauteur>65.00</Hauteur>
-                    <Grammage>135</Grammage>
-                </Papier>
-                <Process>Offset</Process>
-                <Impression>Quadri</Impression>
-            </Item>
-            <Item Composant="Composant_002">
-                <Type>Composant 3</Type>
                 <Pagination>32</Pagination>
                 <FormatFini>
                     <Largeur>21.00</Largeur>

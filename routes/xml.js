@@ -4,18 +4,25 @@ var router = express.Router();
 var fs = require('fs');
 var xml2js = require('xml2js');
 
-const xmlFolder = __dirname + '/../xml/';
+const xmlFolder = './xml/';
 
 
 /* GET home page. */
 router.get('/', function (req, res, next) { //renvoie la liste des fichiers présents dans le répertoire xml
+    var parser = new xml2js.Parser();
     fs.readdir(xmlFolder, (err, files) => {
-        let filesArr = [];
+        var filesArr = [];
         files.forEach(file => {
-            file = file.substr(0, file.length - 4);
-            filesArr.push(file);
+            fileName = file.substring(0, file.length - 4);
+            content = fs.readFileSync(xmlFolder + file);
+            parser.parseString(content, function (err, parsedData) {
+                if (err) throw err;
+                else {
+                    filesArr.push(parsedData);
+                }
+            });
         });
-        res.send(JSON.stringify({"status": 500, "response": filesArr}));
+        res.send(JSON.stringify({"status": 200, "error": null, "response": filesArr}))
     });
 });
 
