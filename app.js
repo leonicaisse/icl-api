@@ -33,7 +33,7 @@ app.use(function (req, res, next) {
         host: 'localhost',
         user: 'root',
         password: 'root',
-        database: 'icl-test',
+        database: 'icl-api',
         port: '8889'
     });
     connection.connect();
